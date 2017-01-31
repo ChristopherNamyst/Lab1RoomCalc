@@ -22,17 +22,16 @@ public class RoomCalc {
 
         double area = length * width;//6. system is performing the calculation
 
-        System.out.println("The area of the room is: " + area);//system is 
+        System.out.println("The area of the room is: " + area);//system outputs equation(answer)
 
-        double perimeter = 2 * length + 2 * width;
-            //5. output results
-        System.out.println("The perimeter of the room is: " + perimeter);
+        double perimeter = 2 * length + 2 * width;//performing calculations
 
-        System.out.println("Would you like to continue?: Please enter a 1 for Yes and 2 for No ");
-        answer = scan.nextInt();
-            //6. close out resources
+        System.out.println("The perimeter of the room is: " + perimeter);//system outputs equation(answer)
+
+        System.out.println("Would you like to continue?: Please enter a 1 for Yes and 2 for No ");//asking for user input
+        answer = scan.nextInt();//scanning for answer
         }
-        System.out.print("Thank you for playing, Buenos Tardes!! ");
+        System.out.print("Thank you for playing, Buenos Tardes!! ");//closing statement
         scan.close();
         }
 
